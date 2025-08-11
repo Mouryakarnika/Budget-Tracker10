@@ -3,7 +3,7 @@ import './styles.css';
 import axios from 'axios';
 
 function Login() {
-    const LOGIN_API =  '/auth/login';
+    const LOGIN_API =  'https://budget-tracker10.onrender.com/auth/login';
 ;
     const handleSubmit = async (event) => {
         event.preventDefault()

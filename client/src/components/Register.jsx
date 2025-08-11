@@ -3,7 +3,7 @@ import './styles.css';
 import axios from 'axios';
 
 function Register() {
-    const REGISTER_API = '/auth/register';
+    const REGISTER_API = 'https://budget-tracker10.onrender.com/auth/register';
     const handleSubmit = async (event) => {
         event.preventDefault()
         const username = event.target[0].value;

@@ -11,9 +11,9 @@ import "react-activity/dist/Spinner.css";
 
 function Home() {
   // APIS //
-  const GETALL_API = '/budget/getAll';
-  const ADD_API = '/budget/add';
-  const DELETE_API = '/budget/delete';
+  const GETALL_API = 'https://budget-tracker10.onrender.com/budget/getAll';
+  const ADD_API = 'https://budget-tracker10.onrender.com/budget/add';
+  const DELETE_API = 'https://budget-tracker10.onrender.com/budget/delete';
   
   // STATES //
   const [expenseItems, setExpenseItems] = useState([])
